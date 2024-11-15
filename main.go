@@ -1,8 +1,9 @@
 package main
 
 import (
-"github.com/belluu/doveops/configuration")
+	"fmt"
+)
 
 func main() {
-	configuration.LoadConfiguration()
+  fmt.Println("test")
 }
